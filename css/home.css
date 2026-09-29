@@ -1,0 +1,1695 @@
+@import url('https://fonts.googleapis.com/css2?family=Gilda+Display&amp;display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&amp;display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Mrs+Saint+Delafield&amp;display=swap');
+
+/* --------------------------
+Default Code 
+-----------------------------*/
+* {
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    scroll-behavior: smooth;
+    /* background: #FDFBF5; */
+}
+
+
+.display-dk {
+    display: block;
+}
+
+.display-mb {
+    display: none;
+}
+
+.col_sm1 {
+    width: 100%;
+}
+
+.col_sm2 {
+    width: 48%;
+    float: left;
+    margin: 1%;
+}
+
+.col_sm2_2 {
+    width: 48%;
+    float: left;
+    margin: 0%;
+}
+
+
+.col_sm3 {
+    width: 31%;
+    float: left;
+    margin: 1%;
+}
+
+.col_sm4 {
+    width: 23%;
+    margin: 1%;
+    float: left;
+}
+
+.col_sm44 {
+    width: 28%;
+    margin: 1%;
+    float: left;
+}
+
+.col_sm8 {
+    width: 58%;
+    float: left;
+    margin: 1%;
+}
+
+.col_sm88 {
+    width: 38%;
+    float: left;
+    margin: 1%;
+}
+
+.col_sm9 {
+    width: 78%;
+    float: left;
+    margin: 1%;
+}
+
+.col_sm99 {
+    width: 9%;
+    float: left;
+    margin: 1%;
+}
+
+.col_sm10 {
+    width: 56%;
+    float: left;
+    margin: 1%;
+}
+
+
+.col_sm100 {
+    width: 63%;
+    float: left;
+    margin: 1%;
+}
+
+.col_sm2_1 {
+    width: 48%;
+    float: left;
+    margin: 1%;
+}
+
+.clear {
+    clear: both;
+}
+
+.top {
+    width: 90%;
+    margin: 0 auto;
+    max-width: 1600px;
+}
+
+.top2 {
+    width: 90%;
+    margin: 0 auto;
+    max-width: 1600px;
+        margin-top: 36px;   
+}
+
+.top3 {
+    width: 85%;
+    margin: 0 auto;
+    max-width: 1600px;
+}
+
+.menu {
+    display: flex;
+    align-items: center;
+
+}
+
+.logo {
+    width: fit-content;
+    float: left;
+    margin: 1% 0;
+}
+
+.logo h2 {
+    font-size: 31px;
+    font-family: "Gilda Display", serif;
+    text-align: center;
+    color: #fff;
+}
+
+/* .book_now{
+    float: right;
+    margin: 1%;
+    right: 66px;
+    position: absolute;
+} */
+
+
+.book_now a {
+    border: 1px solid #000000;
+    padding: 10px 26px;
+    font-size: 18px;
+    text-decoration: none;
+    color: #fff;
+    font-weight: 500;
+    text-transform: capitalize;
+    font-family: "Josefin Sans", sans-serif;
+}
+
+.navbarrr {
+    width: fit-content;
+    float: right;
+    margin: 1% 0;
+    display: flex;
+    align-items: center;
+}
+
+
+.fix_nav {
+    position: relative;
+    background:#222736;
+}
+
+.img {
+    width: 100%;
+}
+
+.logo_img {
+    width: 100%;
+}
+
+.bg_clr222 {
+    background: white;
+}
+
+.footer-icon {
+    text-align: center;
+    margin-top: -23%;
+}
+
+
+.icon h5 {
+    color: #000;
+    margin-top: 7px;
+    padding: 4px 0px;
+    font-family: 'Josefin Sans';
+    line-height: 140%;
+    font-size: 17px;
+    text-align: justify;
+    font-weight: 400;
+}
+
+.curr_txt>h2 {
+    text-align: left !important;
+    font-family: 'Gilda Display' !important;
+    font-size: 24px !important;
+    line-height: 140% !important;
+    font-weight: 500 !important;
+    margin: 1.5% 0 1.5% !important;
+}
+
+.curr_txt h4 {
+    text-transform: uppercase;
+    color: #00234a;
+    font-size: 14px;
+    font-weight: 400;
+    font-family: "Josefin Sans", sans-serif;
+}
+
+.curr_txt {
+    background: linear-gradient(45deg, #e5e5e5 0%, #e5e5e5 100%);
+    padding: 38px;
+}
+
+.book_now {
+    margin-right: 10px;
+}
+
+/*-----------------------------
+Whatsapp up
+-----------------------------*/
+
+.whatsapp_float {
+    text-decoration: none;
+    position: fixed;
+    width: 60px;
+    height: 60px;
+    bottom: 100px;
+    right: 10px;
+    background-color: #25d366;
+    color: #fff;
+    border-radius: 50px;
+    text-align: center;
+    font-size: 30px;
+    box-shadow: 2px 2px 3px #999;
+    z-index: 100;
+    display: flex !important;
+    justify-content: center;
+    align-items: center;
+}
+
+.whatsapp-icon {
+    margin-top: 16px;
+}
+
+
+
+/*------------------------------------------
+footer
+------------------------------------------*/
+.footer {
+    background-color: #222736;
+    padding-top: 0px;
+}
+
+.footer ul {
+    display: flex;
+    gap: 20px;
+    list-style-type: none;
+}
+
+.footer .menu {
+    justify-content: center;
+}
+
+
+.footer li a {
+    font-size: 20px;
+    text-decoration: none;
+    color: #fff;
+    font-weight: 500;
+    text-transform: capitalize;
+    font-family: "Josefin Sans", sans-serif;
+    padding: 5px 0px;
+    margin: 10px 18px;
+}
+
+.fa-brands {
+    font-size: 19px !important;
+}
+
+
+.brd {
+    border-right: 1px solid #fff;
+    min-height: 132px;
+    padding: 0 0 24px 0;
+}
+
+.footer h4 {
+    text-align: center;
+    font-family: 'Gilda Display';
+    font-size: 20px;
+    line-height: 140%;
+    font-weight: 400;
+    padding: 0 !important;
+    color: #fff;
+    margin-bottom: -12px;
+}
+
+.footer p {
+    color: #fff;
+    margin-top: 7px;
+        margin-left: 0px;
+    font-family: 'Josefin Sans';
+    line-height: 140%;
+    font-size: 15px;
+    padding: 1px !important;
+    text-align: center;
+}
+
+.footer p a {
+    color: #fff;
+}
+
+.social-link {
+    display: flex;
+    justify-content: center;
+    gap: 34px;
+}
+
+.social-link a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #ffffff;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border: 1px solid #ffffff;
+    transition: all 0.3s ease-in;
+}
+
+.social-link a:hover {
+    background-color: #fff;
+    color: #000;
+}
+
+.bg-clr4 {
+    background: #000;
+}
+
+.ftr_lt_txt {
+    color: #fff;
+    font-family: 'Josefin Sans';
+    line-height: 140%;
+    font-size: 17px;
+    text-align: left;
+}
+
+.ftr_lt_txt a {
+    color: #fff;
+}
+
+.ftr_right {
+    text-align: right;
+}
+
+
+.fa-brands {
+    font-size: 14px;
+}
+
+.fa-whatsapp {
+    font-size: 35px !important;
+}
+
+/*--------------------------------------------------------------
+top_arrow
+--------------------------------------------------------------*/
+.top_arrow {
+    width: 45px;
+    height: 45px;
+    position: fixed;
+    display: flex;
+    right: 1%;
+    bottom: 3%;
+    transition-duration: 1s;
+    font-size: 20px;
+    cursor: pointer;
+    color: #fff;
+    z-index: 9999;
+
+    background-color: #00234a;
+    border-radius: 50%;
+    align-items: center;
+    justify-content: center;
+}
+
+.top_arrow:hover {
+    background-color: #000;
+
+}
+
+
+.menu-flex {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+/*------------------------------------------
+Down Arrow
+------------------------------------------*/
+
+
+.down-arrow {
+    position: absolute;
+    bottom: 14%;
+    left: 50%;
+    -webkit-animation: downarrow 0.6s infinite alternate ease-in-out;
+    z-index: 99999;
+    width: 3.5%;
+}
+
+a .fa-angle-down {
+    text-align: center;
+    border: 1px solid #00234a;
+    padding: 11px 15px;
+    color: #00234a;
+    border-radius: 50%;
+    background-color: #fff;
+    transition-duration: 1s;
+}
+
+a:hover .fa-angle-down {
+    text-align: center;
+    border: 1px solid #00234a;
+    padding: 11px 15px;
+    color: #fff;
+    border-radius: 50%;
+    background-color: #00234a;
+}
+
+@-webkit-keyframes downarrow {
+    0% {
+        -webkit-transform: translateY(0);
+    }
+
+    100% {
+        -webkit-transform: translateY(0.2em);
+    }
+}
+
+
+
+/*------------------------------------------
+Main Code 
+------------------------------------------*/
+
+.reach {
+    background-color: #f6f6f6;
+}
+
+.reach h2 {
+    text-align: center;
+    font-family: 'Gilda Display';
+    font-size: 35px;
+    padding: 0px 253px;
+    line-height: 140%;
+    margin-bottom: 0px;
+}
+
+.logoimg {
+    width: fit-content;
+}
+
+.hero {
+    width: 100%;
+    background-image: url(../images/banner.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 100%;
+    min-height: 99vh;
+    height: auto;
+
+}
+
+.bottom-img {
+    position: absolute;
+    bottom: -9px;
+    left: 0;
+    right: 0;
+    z-index: 10;
+    background-size: cover;
+}
+
+.hero-content {
+    position: absolute;
+    top: 34%;
+    left: 9%;
+    width: 35%;
+    z-index: 99;
+}
+
+.hero-content h2 {
+    font-size: 80px;
+    color: #fff;
+    font-family: "Gilda Display", serif;
+    font-weight: 400;
+    text-align: left;
+    line-height: 140%;
+}
+
+.hero-content h6 {
+    text-transform: uppercase;
+    color: #fff;
+    font-size: 14px;
+    font-weight: 400;
+    font-family: "Josefin Sans", sans-serif;
+}
+
+.small_content {
+    display: flex;
+}
+
+.small_content hr {
+    width: 69px;
+    margin: 0;
+    color: #ffffff;
+    background: #ffffff;
+    opacity: 1;
+    border: 0;
+    border-top: 1px solid;
+    height: 0px;
+    margin: 4px 11px 0;
+}
+
+.hero-content p {
+    color: #fff;
+    margin-top: 0px;
+    padding: 4px 11px;
+    font-family: 'Josefin Sans';
+    line-height: 140%;
+    font-size: 17px;
+    text-align: left;
+}
+
+.about h2 {
+    text-align: center;
+    font-family: 'Gilda Display';
+    font-size: 35px;
+    padding: 0px 253px;
+    line-height: 140%;
+}
+
+.about h6 {
+    font-family: "Mrs Saint Delafield", cursive;
+    color: #00234a;
+    font-size: 50px;
+    text-align: center;
+    font-weight: 500;
+    margin-top: 12px;
+}
+
+.about_sub h2 {
+        text-align: left;
+    font-family: 'Gilda Display';
+    font-size: 38px;
+    line-height: 54px;
+    font-weight: 400;
+    padding: 0 !important;
+    margin-bottom: 7px;
+}
+
+
+
+.small_content2 {
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    gap: 8px;
+}
+
+.small_content2 h3 {
+    text-transform: uppercase;
+    color: #00234a;
+    font-size: 14px;
+    font-weight: 400;
+    font-family: "Josefin Sans", sans-serif;
+}
+
+.small_content2 hr {
+    width: 69px;
+    margin: 0;
+    color: #00234a;
+    background: #ffffff;
+    opacity: 1;
+    border: 0;
+    border-top: 1px solid;
+    height: 0px;
+    margin: 4px 0px 0;
+}
+
+
+.small_content4 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: -20px;
+}
+
+.small_content4 h3 {
+    text-transform: uppercase;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 400;
+    font-family: "Josefin Sans", sans-serif;
+}
+
+.small_content4 hr {
+    width: 40%;
+    margin: 0;
+    color: #fff;
+    background: #ffffff;
+    opacity: 1;
+    border: 0;
+    border-top: 1px solid;
+    height: 0px;
+    margin: 4px 11px 0;
+}
+
+.about_sub p {
+       color: #000;
+    margin-top: 7px;
+    padding: 4px 3px;
+    font-family: 'Josefin Sans';
+    line-height: 37px;
+    font-size: 17px;
+    text-align: left;
+
+}
+
+.about_sub_mini {
+    width: 70px;
+    height: 70px;
+    /* border-radius: 50%; */
+    /* border: 1px solid #00234a; */
+    /* box-shadow: 0px 5px 15px 0px #00234a 26; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 9px;
+    margin-top: -13px;
+}
+
+.about_sub_mini1 h2 {
+    text-align: left;
+    font-family: 'Gilda Display';
+    font-size: 20px;
+    line-height: 140%;
+    font-weight: 400;
+    padding: 0 !important;
+    margin-bottom: 7px;
+}
+
+.about_sub_mini1 p {
+    color: #000;
+    margin-top: 7px;
+    font-family: 'Josefin Sans';
+    line-height: 140%;
+    font-size: 17px;
+    padding: 0 !important;
+    text-align: left;
+}
+
+.rooms {
+    background-color: #F2F2F2;
+    padding: 0px 0px;
+}
+
+.rooms h2 {
+    text-align: left;
+    font-family: 'Gilda Display';
+    font-size: 35px;
+    line-height: 110%;
+    font-weight: 400;
+    padding: 0 !important;
+}
+
+.rooms p {
+    color: #000;
+    margin-top: 7px;
+    padding: 4px 11px;
+    font-family: 'Josefin Sans';
+    line-height: 140%;
+    font-size: 17px;
+}
+
+.rooms2 {
+    background-color: #F2F2F2;
+    padding: 20px 0px;
+}
+
+.rooms2 h2 {
+    text-align: left;
+    font-family: 'Gilda Display';
+    font-size: 40px;
+    line-height: 140%;
+    font-weight: 400;
+    padding: 0 !important;
+}
+
+.rooms2 p {
+    color: #000;
+    margin-top: 7px;
+    padding: 4px 11px;
+    font-family: 'Josefin Sans';
+    line-height: 140%;
+    font-size: 17px;
+}
+
+/* .btn{
+    margin:4% 2%;
+} */
+
+.btn a {
+    color: #00234a;
+    font-size: 20px;
+    border: 1px solid #00234a;
+    padding: 9px 26px;
+    font-family: 'Josefin Sans';
+    font-weight: 400;
+}
+
+.btn2 {
+    margin: 2% 1%;
+}
+
+.btn2 a {
+    color: #00234a;
+    font-size: 20px;
+    padding: 13px 26px;
+    font-family: 'Josefin Sans';
+    font-weight: 400;
+    background: #fff;
+}
+
+.img_box {
+    overflow: hidden;
+    padding: 0;
+    /* float: left; */
+    position: relative;
+    margin-bottom: 4%;
+}
+
+.img_box img {
+    transition-duration: 1s;
+    margin: 0 auto;
+    display: block;
+    transform: scale(1.1);
+    background: linear-gradient(to right, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0.3) 100%);
+}
+
+.img_box:hover img {
+    transform: scale(1);
+    z-index: 0;
+
+}
+
+.img_box::before {
+    content: '';
+    display: block;
+    position: absolute;
+    top: -100%;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(0deg, #fdfdfd5c, transparent);
+    transform: skewY(0deg);
+    z-index: 1;
+}
+
+.rooms_sub h2 {
+    color: #000;
+    margin-top: 7px;
+    font-family: 'Josefin Sans';
+    line-height: 140%;
+    font-size: 20px;
+    font-weight: 600;
+    text-transform: uppercase;
+    margin-bottom: 7px;
+}
+
+@media (max-width :768px) {
+    .rooms_sub h2 {
+        line-height: 64%;
+    font-size: 15px;
+    }
+}
+
+.rooms_sub h3 {
+    color: #000;
+    margin-top: 7px;
+    font-family: 'Josefin Sans';
+    line-height: 140%;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.rooms_sub p {
+    color: #000;
+    margin-top: 7px;
+    padding: 4px 0px;
+    font-family: 'Josefin Sans';
+    line-height: 140%;
+    font-size: 17px;
+    text-align: justify;
+}
+
+
+.rooms_sub2 h2 {
+    color: #013874;
+    margin-top: 7px;
+    font-family: 'Josefin Sans';
+    line-height: 140%;
+    font-size: 20px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.rooms_sub2 h3 {
+    color: #013874;
+    margin-top: 7px;
+    font-family: 'Josefin Sans';
+    line-height: 140%;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.rooms_sub2 p {
+    color: #000;
+    margin-top: 7px;
+    padding: 4px 0px;
+    font-family: 'Josefin Sans';
+    line-height: 140%;
+    font-size: 17px;
+    text-align: justify;
+}
+
+.small_content3 {
+    display: flex;
+    align-items: center;
+    justify-content: left;
+}
+
+.small_content3 h3 {
+    text-transform: uppercase;
+    color: #00234a;
+    font-size: 14px;
+    font-weight: 400;
+    font-family: "Josefin Sans", sans-serif;
+}
+
+.small_content3 hr {
+    width: 69px;
+    margin: 0;
+    color: #00234a;
+    background: #ffffff;
+    opacity: 1;
+    border: 0;
+    border-top: 1px solid;
+    height: 0px;
+    margin: 4px 11px 0;
+}
+
+.icon-img {
+    width: 26px;
+    /* margin-left: 10px; */
+}
+
+.icon-main {
+    min-height: 144px;
+
+
+}
+
+.icon-main2 {
+    min-height: 0;
+
+}
+
+.icon {
+    display: flex;
+    align-items: center;
+    margin-bottom: -9px;
+}
+
+
+.icon-img2 {
+    width: 86%;
+}
+
+.test {
+    position: relative;
+    padding: 50px 0px;
+    background: url(../images/bg.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.test:before {
+    content: '';
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 9;
+    background-color: rgba(63, 61, 86, 0.698);
+}
+
+
+.test_sub {
+    position: relative;
+    z-index: 99;
+}
+
+.test_sub h2 {
+    text-align: left;
+    font-family: 'Gilda Display';
+    font-size: 40px;
+    line-height: 140%;
+    font-weight: 400;
+    padding: 0 !important;
+    color: #fff;
+    margin-top: 40px;
+    margin-left: 50px;
+}
+
+.flex-star {
+    display: flex;
+    gap: 6px;
+}
+
+/* .client-carousel{
+    margin-top: 19px;
+    margin-left: 80px;
+} */
+
+
+.test_sub_mini {
+    width: 70%;
+    margin-left: 103px;
+}
+
+.fa-star {
+    color: #fff;
+}
+
+.test_sub_mini p {
+    color: #fff;
+    padding: 4px 0px;
+    font-family: 'Josefin Sans';
+    line-height: 140%;
+    font-size: 17px;
+    text-align: justify;
+}
+
+.test_sub_mini h5 {
+    font-size: 20px;
+    margin-top: 10px !important;
+    color: #fff;
+    font-family: "Gilda Display", serif;
+    font-weight: 400;
+    line-height: 140%;
+    padding: 0;
+    text-align: left;
+}
+
+.test_sub_mini h5 span {
+    font-size: 24px;
+    margin-bottom: 10px;
+    display: inline-block;
+    font-weight: 500;
+}
+
+.places h2 {
+    text-align: center;
+    font-family: 'Gilda Display';
+    font-size: 35px;
+    padding: 0px 253px;
+    line-height: 140%;
+    margin-bottom: -19px;
+}
+
+.places h3 {
+    font-size: 20px;
+    text-align: center;
+    font-family: 'Gilda Display';
+    line-height: 140%;
+    font-weight: 600;
+    padding: 0 !important;
+    margin-top: 10px;
+}
+
+
+.btn_sub {
+    display: block;
+    position: relative;
+    text-decoration: none;
+    width: fit-content;
+    overflow: hidden;
+}
+
+span {
+    z-index: 5;
+    position: relative;
+    transition: color 350ms ease;
+}
+
+.btn_sub:hover span {
+    color: white;
+}
+
+.btn_sub::after,
+.btn_sub::before {
+    content: " ";
+    display: block;
+    position: absolute;
+    width: 100%;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    background: #00234a;
+    z-index: -1;
+}
+
+.btn2 a::after,
+.btn2 a::before {
+    color: #fff;
+}
+
+.btn_sub::before {
+    /*   background: blue; */
+    transform: translateX(-100%);
+    z-index: 1;
+}
+
+.btn_sub:hover:before {
+    transform: translateX(0);
+    transition: transform 350ms ease;
+}
+
+.btn_sub::after {
+    z-index: 0;
+    transform: translateX(100%);
+    transition: none;
+    transition: transform 350ms ease;
+}
+
+.btn_sub:hover:after {
+    opacity: 1;
+    transform: translateX(0);
+    transition: transform 350ms 360ms ease;
+}
+
+
+.btn_sub2 {
+    display: block;
+    position: relative;
+    text-decoration: none;
+    width: fit-content;
+    overflow: hidden;
+    margin: 0 auto;
+}
+
+span {
+    z-index: 5;
+    position: relative;
+    transition: color 350ms ease;
+}
+
+.btn_sub2:hover span {
+    color: white;
+}
+
+.btn_sub2::after,
+.btn_sub2::before {
+    content: " ";
+    display: block;
+    position: absolute;
+    width: 100%;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    background: #00234a;
+    z-index: -1;
+}
+
+.btn2 a::after,
+.btn2 a::before {
+    color: #fff;
+}
+
+.btn_sub2::before {
+    /*   background: blue; */
+    transform: translateX(-100%);
+    z-index: 1;
+}
+
+.btn_sub2:hover:before {
+    transform: translateX(0);
+    transition: transform 350ms ease;
+}
+
+.btn_sub2::after {
+    z-index: 0;
+    transform: translateX(100%);
+    transition: none;
+    transition: transform 350ms ease;
+}
+
+.btn_sub2:hover:after {
+    opacity: 1;
+    transform: translateX(0);
+    transition: transform 350ms 360ms ease;
+}
+
+
+
+/* Gallery Page  */
+
+.photos {
+    background-color: #F2F2F2;
+    padding: 50px 0px;
+}
+
+.photos h2 {
+    text-align: center;
+    font-family: 'Gilda Display';
+    font-size: 40px;
+    line-height: 140%;
+    font-weight: 400;
+    padding: 0 !important;
+    color: #000;
+}
+
+.gallery-banner {
+    position: relative;
+}
+
+.gallery-text {
+    position: absolute;
+    top: 19%;
+}
+
+.gallery-text h2 {
+    font-family: 'Gilda Display';
+    font-size: 73px;
+    line-height: 140%;
+    font-weight: 400;
+    padding: 0 !important;
+    color: #fff;
+    margin-top: 40px;
+    text-align: center;
+}
+
+.gallery-text a {
+    color: #000000;
+}
+
+.small_content3 {
+    display: inline-flex;
+    align-items: center;
+}
+
+.small_content3 h3 {
+    text-transform: uppercase;
+    color: #00234a;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: "Josefin Sans", sans-serif;
+}
+
+.small_content3 hr {
+    width: 69px;
+    margin: 0;
+    color: #00234a;
+    background: #ffffff;
+    opacity: 1;
+    border: 0;
+    border-top: 1px solid;
+    height: 0px;
+    margin: 4px 11px 0;
+}
+
+
+.display-gallery-flex {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.img_box .background-overlay {
+    background: rgba(0, 0, 0, 0);
+    /* Initial transparent background */
+    position: absolute;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    transition: all 0.4s ease-in-out;
+    /* Smooth transition */
+    opacity: 0;
+}
+
+.img_box:hover .background-overlay {
+    background: rgba(0, 0, 0, 0.596);
+    left: 10px;
+    top: 10px;
+    right: 10px;
+    bottom: 10px;
+    opacity: 1;
+}
+
+.background-overlay h2 {
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    font-weight: 600;
+    font-family: "Josefin Sans", sans-serif;
+    font-size: 25px;
+    line-height: 140%;
+    text-transform: capitalize;
+}
+
+/* rooms */
+
+.text_flex {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.frm-mrg {
+    margin: 0px 1% 0px 1% !important;
+}
+
+.product_flex {
+    justify-content: space-evenly;
+    gap: 0;
+    flex-wrap: wrap;
+    display: flex;
+}
+
+.contact h2 {
+    font-family: "Josefin Sans", sans-serif;
+    font-size: 25px;
+    line-height: 140%;
+    margin: 0 1% !important;
+    padding: 10px 0;
+    font-weight: 600;
+    text-align: left;
+    color: #000;
+    font-style: normal;
+}
+
+.contact-txt3 h2 {
+    font-family: "Josefin Sans", sans-serif;
+    font-size: 34px;
+    font-weight: 600;
+    color: #000000;
+    margin: 0% 1% 1% !important;
+    line-height: 150%;
+    text-align: left;
+    border-left: 5px solid #f52d39;
+    padding-left: 10px;
+}
+
+
+
+
+.contact-txt2 p a {
+    font-family: "Josefin Sans", sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    color: #000;
+    line-height: 140%;
+    margin: 0% !important;
+    text-align: center;
+    text-decoration: none;
+}
+
+
+.icon_con {
+    background-color: #00234a;
+    width: 40px;
+    height: 40px;
+    padding: 4%;
+    margin: -46px auto 3%;
+    z-index: 1;
+    position: relative;
+    border-radius: 23px;
+    box-shadow: 1px 20px 20px 4px #b9b9b97d;
+}
+
+.img-con {
+    border-radius: 20px;
+    overflow: hidden;
+    height: 146px;
+    width: 92%;
+    margin: 17px auto;
+}
+
+.contacct-active {
+    box-shadow: 0 0 16px 3px #9cc0f947;
+
+    border-radius: 20px;
+}
+
+.contact-txt2 {
+    transition: all .4s linear;
+    min-height: 369px;
+    background-color: #fff;
+}
+
+.contact-txt2 h2 {
+    font-family: "Josefin Sans", sans-serif;
+    font-size: 24px;
+    font-weight: 600;
+    text-align: center;
+    line-height: 140%;
+    margin: 0% !important;
+    color: #000000;
+}
+
+.contact-txt2 p {
+    font-family: "Josefin Sans", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    text-align: center;
+    line-height: 140%;
+    margin: 1% 0% 0% !important;
+    color: #000000;
+}
+
+.tripadvisor-icon {
+    width: 100px;
+    height: 100px;
+}
+
+.tripadvisor-icon .img {
+    display: block;
+}
+
+
+iframe {
+    width: 100%;
+    height: 80vh;
+    border: none;
+}
+
+@media only screen and (max-width :1600px) {
+    .hero-content {
+        top: 29%;
+        left: 6%;
+        width: 50%;
+    }
+
+    .banner-text {
+        bottom: 29%;
+        left: 4%;
+    }
+}
+
+@media only screen and (max-width :1500px) {}
+
+@media only screen and (max-width :1400px) {
+    /*.icon-main {*/
+    /*    min-height: 330px;*/
+    /*}*/
+
+    .banner-text {
+        bottom: 29%;
+        left: 4%;
+    }
+
+    .col_sm10 {
+        width: 38%;
+    }
+
+    .col_sm100 {
+        width: 58%;
+    }
+}
+
+@media only screen and (max-width :1300px) {
+
+    .hero-content {
+        width: 69%;
+    }
+
+
+}
+
+
+
+@media only screen and (max-width :1200px) {
+    .icon-main {
+        min-height: 382px;
+    }
+
+    .logo {
+        width: 238px;
+    }
+
+    #cssmenu>ul>li>a {
+        margin: 20px 11px !important;
+    }
+}
+
+@media screen and (max-width: 1100px) {}
+
+@media only screen and (max-width :1000px) {
+    .logo {
+        width: 192px;
+    }
+
+    .col_sm100 {
+        width: 98%;
+    }
+
+    .col_sm10 {
+        width: 98%;
+    }
+}
+
+
+@media only screen and (max-width:960px) {
+
+    .book_now,.tripadvisor-icon {
+        display: none;
+    }
+    .brd {
+        min-height: 154px;
+    }
+
+    .places h2 {
+        padding: 0px;
+    }
+
+    .about h2 {
+        padding: 0px;
+    }
+
+    .reach h2 {
+        padding: 0px;
+    }
+
+    .display-dk {
+        display: none;
+    }
+
+    .display-mb {
+        display: block;
+    }
+
+    .display-mb img {
+        width: 300px;
+    }
+
+    .menu-flex {
+        display: block;
+    }
+
+    .book_now a {
+        display: none;
+    }
+
+    .top3 {
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    .container {
+        width: auto !important;
+    }
+
+    .logo {
+        width: 100%;
+        text-align: center;
+        margin-left: 98px;
+    }
+
+    #cssmenu {
+        background: #00234a;
+    }
+
+    .ban_img {
+        display: flex;
+        justify-content: center;
+        margin-bottom: -104px;
+    }
+
+    .fix_nav {
+        position: static !important;
+    }
+
+    .col_sm8 {
+        width: 98%;
+    }
+
+    .col_sm88 {
+        width: 98%;
+    }
+
+    .col_sm44 {
+        width: 41%;
+    }
+
+    .col_sm4 {
+        width: 48%;
+    }
+
+    .ftr_flex {
+        justify-content: start;
+    }
+
+    .ftr_right {
+        text-align: right;
+    }
+
+    .logo-ftr {
+        margin: 0;
+        margin-left: -5%;
+    }
+
+    #cssmenu>ul>li>a {
+        margin: 6px 3px !important;
+    }
+
+    .logo_img {
+        width: 350px;
+    }
+
+    .navbarrr {
+        width: 100% !important;
+        float: left;
+        margin: 0% auto !important;
+    }
+
+    .top {
+        width: 100%;
+    }
+
+    .col_sm2 {
+        width: 98%;
+    }
+
+    .col_sm3 {
+        width: 48%;
+    }
+
+    .col_sm100 {
+        width: 98%;
+    }
+
+    .col_sm10 {
+        width: 98%;
+    }
+
+}
+
+@media only screen and (max-width:800px) {
+
+    .col_sm44 {
+        width: 40%;
+    }
+}
+
+
+@media only screen and (max-width : 700px) {}
+
+@media only screen and (max-width:600px) {
+    .ftr_right {
+        text-align: left;
+    }
+
+    .brd {
+        border-right: 0;
+        border-bottom: 1px solid #fff;
+    }
+
+    .icon-main {
+        min-height: 0;
+    }
+
+    .top2 {
+        width: 100%;
+        /* margin: 0 auto; */
+    }
+
+    .whatsapp_float {
+        width: 50px;
+        height: 50px;
+    }
+
+    .col_sm3 {
+        width: 98%;
+    }
+
+    .col_sm44 {
+        width: 98%;
+    }
+
+    .col_sm4 {
+        width: 98%;
+    }
+
+    .top55 {
+        width: 88%;
+    }
+
+    .col_sm2_1 {
+        width: 98%;
+    }
+
+    .col_sm2_2 {
+        width: 100%;
+        float: left;
+    }
+
+    .display-gallery-flex {
+        display: block;
+    }
+}
+
+@media only screen and (max-width:500px) {
+    .col_sm33 {
+        width: 48%;
+    }
+
+    .footer ul {
+        gap: 0;
+    }
+
+    .gallery-text {
+        top: 11%;
+    }
+
+    .gallery-banner img {
+        height: 181px;
+        object-fit: cover;
+    }
+
+    .footer h4 {
+        margin: 4% 0 0;
+    }
+}
+
+
+@media only screen and (max-width:400px) {
+    .logo_img {
+        width: 250px;
+    }
+
+    .col_sm33 {
+        width: 98%;
+    }
+
+    .whatsapp_float {
+        z-index: 9999;
+    }
+
+}
+
+@media only screen and (max-width:360px) {
+    .footer li a {
+        font-size: 17px;
+    }
+
+    .gallery-banner img {
+        height: 200px;
+        object-fit: cover;
+    }
+}
+
+
+
